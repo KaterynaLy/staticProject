@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css/styles.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>Ortodoncia - Dental&Design</title>
+  </head>
+
+  <body>
+    <header></header>
+    <h1>Especialistas en Brackets, Ortodoncia Estética y Alineadores.</h1>
+    <div class="container-ordontologia">
+      <div class="texto-imagen-container">
+        <div class="texto-ortodoncia">
+          <p>
+            Nos especializamos y enfocamos nuestra atención en la Ortodoncia
+            Invisible, ya que consideramos que es la mejor manera de tratar tu
+            sonrisa. Trabajamos con los mejores alineadores europeos, ofreciendo
+            calidad suprema a un precio económico.
+          </p>
+          <p>
+            Descubre en <span class="highlight">Clínica Dental&Design</span> la
+            ortodoncia que se adapta a ti. Nuestro equipo experto ofrece una
+            gama completa de opciones, desde ortodoncia invisible hasta
+            soluciones estéticas y alineadores K-Line Europe, garantizando el
+            tratamiento perfecto para cada sonrisa.
+          </p>
+          <ul>
+            <li>
+              <strong>Somos expertos en Ortodoncia Invisible:</strong>
+              Utilizamos alineadores K-Line Europe y otras técnicas invisibles
+              para un tratamiento discreto y efectivo.
+            </li>
+            <li>
+              <strong>Tecnología Avanzada:</strong> Utilizamos equipos de última
+              generación para diagnósticos y tratamientos precisos, garantizando
+              los mejores resultados.
+            </li>
+            <li>
+              <strong>Atención Personalizada:</strong> Evaluamos detenidamente
+              tus necesidades para ofrecerte la mejor solución ortodóntica,
+              adaptada a ti.
+            </li>
+            <li>
+              <strong>Resultados Estéticos y Funcionales:</strong> Nos
+              comprometemos con resultados que no solo lucen bien, sino que
+              también mejoran tu salud dental y funcionalidad bucal.
+            </li>
+          </ul>
+          <p>
+            Innovación y Calidad en Cada Sonrisa –
+            <span class="highlight">Clínica Dental&Design</span>, Expertos en
+            Ortodoncia
+          </p>
+          <button class="button" id="showForm">Contactarme, por favor</button>
+          <div id="formContainer">
+            <?php include 'formulario.php'; ?>
+          </div>
+          <!-- Mensaje de éxito después del envío del formulario -->
+          <?php if (isset($_SESSION['success'])): ?>
+          <div class="alert alert-success">
+            <?= $_SESSION['success']; ?>
+          </div>
+          <?php unset($_SESSION['success']); endif; ?>
+        </div>
+        <div class="imagen-ortodoncia">
+          <img
+            src="/images/paciente.jpg"
+            alt="Foto 2"
+            style="border-radius: 15px"
+          />
+        </div>
+      </div>
+
+      <div class="texto-container">
+        <div class="imagen-ortodoncia-paciente">
+          <img
+            src="/images/aligners-dental.jpg"
+            alt="Foto 1"
+            style="border-radius: 15px"
+          />
+        </div>
+        <div>
+          <p>
+            Innovación y Calidad en Cada Sonrisa –
+            <span class="highlight">Clínica Dental&Design</span>, Expertos en
+            Ortodoncia
+          </p>
+          <p>
+            Elige la excelencia en ortodoncia. Ya sea que prefieras los brackets
+            tradicionales, una solución estética o la discreción de los
+            alineadores K-Line Europe, en
+            <span class="highlight">Clínica Dental&Design</span> encontrarás el
+            camino ideal hacia la sonrisa de tus sueños.
+          </p>
+          <p>
+            <strong
+              >«Agenda tu Consulta en Ortodoncia Hoy – Da el Primer Paso hacia
+              una Sonrisa Radiante con
+              <span class="highlight">Clínica Dental&Design</span>»</strong
+            >
+          </p>
+          <a
+            href="https://wa.me/34672958402"
+            class="button"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Agenda tu Consulta por WhatsApp</a
+          >
+          <p>
+            En <span class="highlight">Clínica Dental&Design</span> estamos para
+            ayudarte. ¡No dudes en contactarnos!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="preguntas-frecuentes-ortodoncia">
+      <h2>Preguntas Frecuentes sobre Ortodoncia</h2>
+
+      <p>
+        No hay una edad específica ideal para comenzar el tratamiento de
+        ortodoncia, ya que puede ser beneficioso tanto para niños como para
+        adultos. Generalmente, los niños deben tener una evaluación inicial
+        alrededor de los 7 años. Sin embargo, muchos adultos también optan por
+        la ortodoncia para corregir problemas dentales. La evaluación temprana
+        permite identificar problemas potenciales y planificar un tratamiento
+        adecuado.
+      </p>
+
+      <h3>¿Cuánto tiempo dura el tratamiento de ortodoncia?</h3>
+      <p>
+        La duración del tratamiento de ortodoncia varía según la complejidad del
+        caso. En promedio, el tratamiento puede durar entre 6 y 24 meses. Sin
+        embargo, algunos casos pueden resolverse en menos tiempo, mientras que
+        otros pueden requerir un tratamiento más prolongado. El ortodoncista
+        proporcionará una estimación más precisa después de una evaluación
+        inicial.
+      </p>
+
+      <h3>¿Qué tipos de aparatos de ortodoncia están disponibles?</h3>
+      <p>
+        Existen varios tipos de aparatos de ortodoncia disponibles, cada uno con
+        sus propias ventajas:
+      </p>
+      <ul>
+        <li>Brackets metálicos tradicionales.</li>
+        <li>Brackets cerámicos.</li>
+        <li>
+          Alineadores transparentes: Nuestra especialidad y el producto
+          estrella. Estos alineadores son removibles y casi invisibles, lo que
+          permite a nuestros pacientes corregir su sonrisa de manera discreta y
+          cómoda.
+        </li>
+      </ul>
+      <p>Los alineadores transparentes ofrecen múltiples ventajas:</p>
+      <ul>
+        <li>
+          Estética: Al ser casi invisibles, nadie notará que los llevas puestos.
+        </li>
+        <li>
+          Comodidad: Son removibles, lo que facilita la higiene dental y permite
+          comer sin restricciones.
+        </li>
+        <li>
+          Personalización: Cada alineador se fabrica a medida para asegurar un
+          ajuste perfecto y eficaz.
+        </li>
+      </ul>
+
+      <h3>¿Cuáles son los costos de un tratamiento de ortodoncia?</h3>
+      <p>
+        El costo de un tratamiento de ortodoncia depende del tipo de aparatos
+        utilizados, la duración del tratamiento y la complejidad del caso. Los
+        precios varían según cada caso y las necesidades del mismo. Ofrecemos
+        pago a plazos y diferentes formas de pago para facilitar el acceso al
+        tratamiento. Una consulta inicial gratuita puede proporcionar una
+        estimación más precisa de los costos.
+      </p>
+
+      <h3>¿Es doloroso el tratamiento de ortodoncia?</h3>
+      <p>
+        Es normal sentir algo de incomodidad o dolor leve después de la
+        colocación de los aparatos y durante los ajustes periódicos. Esta
+        molestia suele desaparecer en unos pocos días y puede ser manejada con
+        analgésicos. El ortodoncista dará recomendaciones específicas para
+        minimizar las molestias durante el tratamiento.
+      </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      document
+        .getElementById("showForm")
+        .addEventListener("click", function () {
+          document.getElementById("contactForm").style.display = "block";
+          this.style.display = "none";
+        });
+    </script>
+
+    <footer></footer>
+    <script>
+      $(function () {
+        // Carga el contenido del pie de página
+        $("footer").load("./footer.html");
+      });
+    </script>
+    <script>
+      $(function () {
+        // Carga el contenido header
+        $("header").load("./header.html");
+      });
+    </script>
+  </body>
+</html>

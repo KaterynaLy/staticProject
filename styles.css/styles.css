@@ -1,0 +1,604 @@
+*{box-sizing:border-box;margin:0;padding:0}h1{color:#d8b805;margin-bottom:20px;text-align:center}.highlight{color:#d8b805;font-weight:600;text-shadow:2px 2px 4px rgba(0,0,0,.3)}ul li{list-style:none}.button{background-color:#d8b805;border-radius:5px;color:#fff;display:inline-block;margin-bottom:10px;padding:10px 20px;text-decoration:none;transition:background-color .3s}.button:hover{background-color:#080808}form{display:none;margin-top:20px}input,textarea{border:1px solid #f1f4f5;border-radius:5px;margin-bottom:10px;padding:10px;width:100%}input[type=submit]{background-color:#d8b805;border:none;color:#fff;cursor:pointer}input[type=submit]:hover{background-color:#080808}.dropdown-menu{background-color:#fff;border:1px solid #f1f4f5;border-radius:5px;box-shadow:0 2px 5px rgba(0,0,0,.1);min-width:200px;padding:10px 0;text-align:left}.dropdown-menu li a{color:#333;display:block;padding:10px 20px;text-decoration:none;transition:background-color .3s}.dropdown-menu li a:hover{background-color:#f1f4f5}.description{background-image:url(/images/bienvenidos.jpg);background-position:50%;background-size:cover;border-radius:15px;color:#fff;padding:20px;position:relative}.description:before{background-color:rgba(67,65,65,.5);border-radius:15px;content:"";height:100%;left:0;position:absolute;top:0;width:100%;z-index:1}.description *{position:relative;z-index:2}.promociones-blanqueamiento .promotion,.tratamientos-esteticos{background-color:#f1f4f5;border-radius:15px;display:block;margin-bottom:25px;overflow:hidden;padding:30px}.promociones-blanqueamiento .promotion h2{color:#d8b805;font-size:24px}.promociones-blanqueamiento .promotion p{font-size:16px}.promociones-blanqueamiento .promotion .price{color:#d8b805;font-size:18px;font-weight:700}.promociones-blanqueamiento .promotion .button{background-color:#d8b805;border-radius:5px;color:#fff;padding:10px 20px;text-decoration:none}.promotion{background-color:#f1f4f5;border-radius:10px;margin-bottom:20px;overflow:hidden;padding:20px}.promotion,.promotion-content{align-items:center;display:flex}.promotion-content{gap:20px}.promotion h2{color:#d8b805;font-size:24px;margin-bottom:10px}.promotion p{font-size:16px;margin-bottom:10px}.promotion .price{color:#d8b805;font-size:18px;font-weight:700}.promotion-content{flex:1}.promotion-text{background-color:rgba(241,244,245,.7);border-radius:15px;padding:20px;text-shadow:1px 1px 2px hsla(0,33%,96%,.422);width:400px}.plan-dental-glow,.plan-renovacion-facial,.plan-senor-50{background-position:50%;background-repeat:no-repeat;background-size:cover;border-radius:15px;margin-bottom:15px}.plan-dental-glow{background-image:url(/images/dental-glow.jpg)}.plan-renovacion-facial{background-image:url(/images/renovacion-facial.jpg)}.plan-senor-50{background-image:url(/images/elegancia-renovada.jpg)}.estetica-form{background-color:#f1f4f5;margin-top:20px}.estetica-form,.implantes-inicio{border-radius:15px;margin-bottom:20px;padding:20px}.implantes-inicio{background-image:url(/images/implantes.jpg);background-position:50%;background-repeat:no-repeat;background-size:cover}.implantes-info{text-shadow:2px 2px 4px hsla(0,2%,76%,.5)}.general-info-implantes{gap:10px}.general-info-implantes,.specific-info-implantes{background-color:#f1f4f5;border-radius:15px;margin-top:20px;padding:20px}.specific-info-implantes{display:flex;flex-wrap:wrap}.method-info{flex:1 1 50%;margin-bottom:20px;padding-right:20px}.image-container{margin-bottom:10px;text-align:center}.image-container img{max-width:100%}.image-container h3{margin-top:0}.button-container-implantes{padding:20px}.gallery-imlantes{display:grid;gap:20px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}.gallery-implantes img{height:auto;width:100%}@media (max-width:300px){.plan-dental-glow,.plan-renovacion-facial,.plan-senor-50{background-size:contain}}.resena-google{align-items:center;background-color:#f1f4f5;border-radius:15px;display:flex;justify-content:space-between;margin-bottom:15px;margin-top:15px;padding:20px}.texto-resena{line-height:.9}.boton-resena{align-self:center}.boton-resena a.btn{background-color:#d8b805;border:none;border-radius:5px;color:#fff;padding:10px 20px;text-decoration:none}.boton-resena a.btn:hover{background-color:#000;color:#fff;text-decoration:none}.estrellas{color:gold;font-size:24px}.nombre-clinica{font-size:24px;font-weight:700}.gallery-resenas{margin:0 auto;width:100%}.gallery-resenas img{background-color:#fff;border:1px solid #ddd;height:auto;-o-object-fit:contain;object-fit:contain;padding:10px;width:100%}.commentary{background-color:#f1f4f5;border-radius:15px;margin-bottom:15px;padding:15px 20px}.gallery-resenas .row{display:flex;flex-wrap:wrap;justify-content:space-between}.gallery-resenas .col-md-4{flex:0 0 calc(33.33% - 20px)}.container-installation{background-color:#f1f4f5;border-radius:15px;margin-bottom:20px;margin-top:20px;padding:20px}.installation-image{border:2px solid #dcdcdc;border-radius:15px;margin:10px;max-width:550px;width:100%}.image-gallery-installation{display:flex;flex-wrap:wrap;gap:20px;justify-content:center}.container-ordontologia,.preguntas-frecuentes-ortodoncia{background-color:#f1f4f5;border-radius:15px;margin-bottom:20px;margin-top:20px;padding:20px}.texto-imagen-container{align-items:flex-start;display:flex;overflow:hidden}.texto-ortodoncia{flex:1;padding-right:20px}.imagen-ortodoncia,.imagen-ortodoncia-paciente{padding:10px;width:50%}.imagen-ortodoncia img,.imagen-ortodoncia-paciente img{border-radius:15px;width:100%}.texto-container{display:flex;justify-content:space-between;width:100%}.container-convenio,.container-odontologia,.container-protesis-dentales{background-color:#f1f4f5;border-radius:15px;margin-bottom:20px;margin-top:20px;padding:20px}.convenio-beneficios{gap:10px;margin-bottom:10px;margin-top:10px}.audio-container{margin-bottom:20px;margin-top:20px}.audio-button{background-color:#d8b805;border-radius:5px;color:#fff;cursor:pointer;display:inline-block;font-size:16px;padding:10px 20px;text-decoration:none}.audio-button:hover{background-color:#0056b3}.container-installation{margin:auto;max-width:1400px}.container-installation img{height:400px;-o-object-fit:cover;object-fit:cover;width:100%}.carousel-item img{border-radius:15px;height:auto;max-width:100%}.carousel-caption{background-color:hsla(60,0%,59%,.5);border-radius:10px;bottom:0;color:#fff;left:0;margin-bottom:20px;padding:10px;position:absolute;right:0}.dark-overlay{background-color:rgba(0,0,0,.5);border-radius:15px;height:100%;left:0;position:absolute;top:0;width:100%}.arrow{background-color:#f1f4f5;clip-path:polygon(50% 0,0 100%,100% 100%);display:inline-block;height:10px;margin-right:5px;width:10px}.carousel-control-next,.carousel-control-prev{background-color:#080808;border-radius:50%;height:50px;top:50%;transform:translateY(-50%);width:50px;z-index:1}.carousel-control-prev{left:0}.carousel-control-next{right:0}
+/* Definición de variables de color */
+:root {
+    --color-amarillo: #d8b805;
+    --color-blanco: #fff;
+    --color-gris: #f1f4f5;
+    --color-negro: #080808;
+    --color-negro-oscuro: #080808;
+}
+
+/* Estilos CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: var(--color-amarillo);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: var(--color-amarillo);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+}
+
+ul li {
+    list-style: none;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--color-amarillo);
+    color: var(--color-blanco);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: var(--color-negro-oscuro);
+}
+
+form {
+    margin-top: 20px;
+    display: none;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--color-gris);
+}
+
+input[type=submit] {
+    background-color: var(--color-amarillo);
+    color: var(--color-blanco);
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: var(--color-negro);
+}
+
+.dropdown-menu {
+    background-color: var(--color-blanco);
+    border: 1px solid var(--color-gris);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    min-width: 200px;
+    text-align: left;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.dropdown-menu li a:hover {
+    background-color: var(--color-gris);
+}
+
+//Inicio
+.description {
+    position: relative;
+    background-image: url('/images/bienvenidos.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    color: var(--color-blanco);
+    padding: 20px;
+
+    /* Capa adicional para el fondo semitransparente */
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(67, 65, 65, 0.5);
+        z-index: 1;
+        border-radius: 15px;
+    }
+
+    * {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+// promociones blanqueamiento
+.promociones-blanqueamiento .promotion,
+.tratamientos-esteticos {
+    display: block;
+    background-color: var(--color-gris);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.promociones-blanqueamiento .promotion h2 {
+    font-size: 24px;
+    color: var(--color-amarillo);
+}
+
+.promociones-blanqueamiento .promotion p {
+    font-size: 16px;
+}
+
+.promociones-blanqueamiento .promotion .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-amarillo);
+}
+
+.promociones-blanqueamiento .promotion .button {
+    background-color: var(--color-amarillo);
+    color: var(--color-blanco);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.promotion {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-gris);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.promotion-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.promotion h2 {
+    color: var(--color-amarillo);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.promotion p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.promotion .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-amarillo);
+}
+
+.promotion-content {
+    flex: 1;
+}
+
+.promotion-text {
+    padding: 20px;
+    text-shadow: 1px 1px 2px rgba(249, 243, 243, 0.422);
+    background-color: rgba(241, 244, 245, 0.7); /* Color de fondo transparente */
+    width: 400px;
+    border-radius: 15px;
+}
+
+.plan-dental-glow,
+.plan-renovacion-facial,
+.plan-senor-50 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.plan-dental-glow {
+    background-image: url('/images/dental-glow.jpg');
+}
+
+.plan-renovacion-facial {
+    background-image: url('/images/renovacion-facial.jpg');
+}
+
+.plan-senor-50 {
+    background-image: url('/images/elegancia-renovada.jpg');
+}
+
+.estetica-form {
+    background-color: #f1f4f5;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+// implantes dentales
+.implantes-inicio {
+    background-image: url('/images/implantes.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.implantes-info {
+    text-shadow: 2px 2px 4px rgba(194, 192, 192, 0.5);
+}
+
+.general-info-implantes {
+    margin-top: 20px;
+    padding: 20px;
+    gap: 10px;
+    background-color: #f1f4f5;
+    border-radius: 15px;
+}
+
+.specific-info-implantes {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f1f4f5;
+    border-radius: 15px;
+}
+
+.method-info {
+    flex: 1 1 50%;
+    margin-bottom: 20px;
+    padding-right: 20px;
+
+}
+
+.image-container {
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.image-container img {
+    max-width: 100%;
+}
+
+.image-container h3 {
+    margin-top: 0;
+}
+
+.button-container-implantes {
+    padding: 20px;
+}
+
+.gallery-imlantes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-implantes img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 300px) {
+
+    .plan-dental-glow,
+    .plan-renovacion-facial,
+    .plan-senor-50 {
+        background-size: contain;
+    }
+}
+
+
+.resena-google {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f4f5;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.texto-resena {
+    line-height: 0.9;
+}
+
+.boton-resena {
+    align-self: center;
+    /* Centrar verticalmente solo este elemento */
+
+    a.btn {
+        background-color: #d8b805;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: darken(#d8b805, 100%);
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+.estrellas {
+    font-size: 24px;
+    color: gold;
+}
+
+.nombre-clinica {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.gallery-resenas {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gallery-resenas img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.commentary {
+    background-color: #f1f4f5;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+
+.gallery-resenas .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.gallery-resenas .col-md-4 {
+    flex: 0 0 calc(33.33% - 20px);
+}
+
+//Instalaciones
+.container-installation {
+    background-color: var(--color-gris);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.installation-image {
+    border-radius: 15px;
+    border: 2px solid #dcdcdc;
+    margin: 10px;
+    width: 100%;
+    max-width: 550px;
+}
+
+.image-gallery-installation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+//Ortodoncia
+.container-ordontologia,
+.preguntas-frecuentes-ortodoncia {
+    background-color: var(--color-gris);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto-imagen-container {
+    overflow: hidden;
+}
+
+.texto-imagen-container {
+    display: flex;
+    align-items: flex-start;
+    /* Alinear elementos al inicio */
+}
+
+.texto-ortodoncia {
+    flex: 1;
+    padding-right: 20px;
+    /* Espacio entre el texto y las imágenes */
+}
+
+.imagen-ortodoncia,
+.imagen-ortodoncia-paciente {
+    width: 50%;
+    padding: 10px;
+    /* Ancho de las imágenes */
+}
+
+.imagen-ortodoncia img,
+.imagen-ortodoncia-paciente img {
+    width: 100%;
+    border-radius: 15px;
+    /* Borde redondeado */
+}
+
+.texto-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* Espacio entre la imagen y el texto */
+}
+
+.container-protesis-dentales {
+    background-color: var(--color-gris);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+//Odontologia
+.container-odontologia {
+    background-color: var(--color-gris);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+//Convenio
+.container-convenio {
+    background-color: var(--color-gris);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.convenio-beneficios {
+    margin-top: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.audio-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.audio-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-amarillo);
+    color: var(--color-blanco);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.audio-button:hover {
+    background-color: #0056b3;
+}
+
+//Instalaciones slides
+.container-installation {
+    /* Establece el ancho máximo del contenedor */
+    max-width: 1400px;
+    /* Puedes ajustar este valor según tus necesidades */
+    margin: auto;
+    /* Centra el contenedor horizontalmente */
+}
+
+.container-installation img {
+    /* Establece una altura específica para las imágenes */
+    height: 400px;
+    /* Puedes ajustar este valor según tus necesidades */
+    width: 100%;
+    /* Las imágenes ocuparán el 100% del ancho del contenedor */
+    object-fit: cover;
+    /* Escalar la imagen para cubrir el contenedor manteniendo su relación de aspecto */
+}
+
+.carousel-item img {
+    border-radius: 15px;
+    /* Borde redondeado */
+    max-width: 100%;
+    /* Ancho máximo del 100% */
+    height: auto;
+    /* Altura automática */
+}
+
+/* Estilo para el texto descriptivo */
+.carousel-caption {
+    background-color: rgba(150, 150, 149, 0.5);
+    /* Fondo semi-transparente */
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 20px;
+    color: $color-blanco;
+}
+
+/* Estilo para la capa oscura */
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo semi-transparente */
+    border-radius: 15px;
+    /* Borde redondeado */
+}
+
+/* Estilo para las flechas en el texto */
+.arrow {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-gris);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin-right: 5px;
+}
+
+/* Estilo para las flechas "prev" y "next" */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: var(--color-negro-oscuro);
+    /* Fondo semi-transparente */
+    border-radius: 50%;
+    /* Bordes redondeados */
+    width: 50px;
+    /* Ancho */
+    height: 50px;
+    /* Altura */
+    top: 50%;
+    /* Centrar verticalmente */
+    transform: translateY(-50%);
+    /* Ajustar verticalmente */
+    z-index: 1;
+    /* Asegura que las flechas estén por encima de las imágenes */
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}

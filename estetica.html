@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estética - Dental&Design</title>
+    <link rel="stylesheet" href="styles.css/styles.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header></header>
+    <h1>Diseño Sonrisa para ellas</h1>
+    <div class="container">
+      <div class="promotion plan-dental-glow">
+        <div class="promotion-content">
+          <div class="promotion-text">
+            <h2>Plan 20/40</h2>
+            <p>Dental Glow:</p>
+            <ul>
+              <li><strong>Ácido Hialurónico</strong></li>
+              <li><strong>Blanqueamientos</strong></li>
+              <li><strong>Limpieza Dental</strong></li>
+              <li><strong>Ortodoncia</strong></li>
+              <li><strong>Carillas</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="promotion plan-renovacion-facial">
+        <div class="promotion-content">
+          <div class="promotion-text">
+            <h2>Plan 40/50</h2>
+            <p>Renovación Facial:</p>
+            <ul>
+              <li><strong>Ácido Hialurónico</strong></li>
+              <li><strong>Blanqueamientos</strong></li>
+              <li><strong>Restauración Dental</strong></li>
+              <li><strong>Implantes Dentales</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="promotion plan-senor-50">
+        <div class="promotion-content">
+          <div class="promotion-text">
+            <h2>Plan +50</h2>
+            <p>Señor:</p>
+            <ul>
+              <li><strong>Blanqueamiento</strong></li>
+              <li><strong>Restauración Estética</strong></li>
+              <li><strong>Prótesis</strong></li>
+              <li><strong>Rellenos Dérmicos</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="estetica-form">
+      <p>
+        Cada plan está cuidadosamente diseñado para resaltar tu belleza y
+        mantener tu sonrisa radiante en cada etapa de la vida. ¡Elige el tuyo y
+        descubre una nueva razón para sonreír cada día!
+      </p>
+
+      <button class="button" id="showForm">Contactarme, por favor</button>
+      @include('components.contact_form')
+    </div>
+
+    <script>
+      document
+        .getElementById("showForm")
+        .addEventListener("click", function () {
+          document.getElementById("contactForm").style.display = "block";
+          this.style.display = "none"; // Oculta el botón al mostrar el formulario
+        });
+    </script>
+
+    <footer>
+      <!-- Carga el contenido del pie de página -->
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      $(function () {
+        // Carga el contenido del pie de página
+        $("footer").load("./footer.html");
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      $(function () {
+        // Carga el contenido header
+        $("header").load("./header.html");
+      });
+    </script>
+  </body>
+</html>

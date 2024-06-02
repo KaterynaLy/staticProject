@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css/styles.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>Convenio de Colaboración</title>
+  </head>
+  <body>
+    <header></header>
+    <section>
+      <h1>Convenio de Colaboración</h1>
+      <div class="container-convenio">
+        <!-- Reproductor de audio -->
+        <div class="audio-container">
+          <audio
+            id="audioPlayer"
+            src="audio/audioDentalDesign.mp3"
+            controls
+            style="display: none"
+          ></audio>
+          <div class="audio-button" onclick="toggleAudio()">
+            &#9658; Escuchar Audio
+          </div>
+        </div>
+        <div>
+          <h6>Objeto del Convenio</h6>
+          <p>
+            La Clínica Dental&Design y la parte colaboradora acuerdan colaborar
+            en actividades y proyectos que beneficien a ambas partes.
+          </p>
+        </div>
+        <div>
+          <h6>Obligaciones de las Partes</h6>
+          <ul>
+            <li>
+              La Clínica Dental&Design se compromete a ofrecer
+              <strong
+                >descuentos preferenciales en tratamientos odontológicos</strong
+              >
+              a los trabajadores de la parte colaboradora, previa presentación
+              de la acreditación correspondiente.
+            </li>
+            <li>
+              La parte colaboradora se compromete a promover y difundir los
+              servicios de la Clínica Dental&Design entre sus miembros, mediante
+              los canales de comunicación que considere oportunos.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h6>Duración del Convenio</h6>
+          <p>
+            El presente convenio tendrá una duración de un año, renovable de
+            forma automática, a menos que alguna de las partes comunique su
+            intención de dar por finalizada la colaboración con al menos un mes
+            de antelación.
+          </p>
+        </div>
+        <div>
+          <h6>Protección de Datos</h6>
+          <ul>
+            <li>
+              Ambas partes se comprometen a cumplir con la normativa vigente en
+              materia de protección de datos, asegurando la confidencialidad y
+              seguridad de la información compartida en el marco de este
+              convenio.
+            </li>
+            <li>
+              La Clínica Dental&Design está autorizada a utilizar el logotipo de
+              la parte colaboradora exclusivamente con fines promocionales
+              relacionados con esta colaboración, previa autorización por
+              escrito de la parte colaboradora.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h6>Modificación del Convenio</h6>
+          <p>
+            Cualquier modificación o adenda al presente convenio deberá
+            realizarse por escrito y contar con el consentimiento expreso de
+            ambas partes.
+          </p>
+        </div>
+        <div>
+          <h6>Jurisdicción y Ley Aplicable</h6>
+          <p>
+            El presente convenio se regirá por las leyes de España. Cualquier
+            controversia derivada del mismo será sometida a la jurisdicción de
+            los tribunales competentes de Málaga.
+          </p>
+        </div>
+
+        <button class="button" id="showForm">Contactarme, por favor</button>
+        <form id="contactForm" action="#" method="post" style="display: none">
+          <input
+            type="hidden"
+            name="interes"
+            value="Estoy interesado/interesada"
+          />
+          <input
+            type="text"
+            name="nombre"
+            placeholder="Nombre *"
+            required
+          /><br />
+          <input
+            type="tel"
+            name="telefono"
+            placeholder="Teléfono *"
+            required
+          /><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email (opcional)"
+          /><br />
+          <textarea name="mensaje" rows="4" placeholder="Mensaje">
+Convenio de Colaboración</textarea
+          ><br />
+          <label for="fecha">Fecha y hora para llamar (opcional):</label><br />
+          <input type="datetime-local" name="fecha" id="fecha" /><br />
+
+          <label>
+            <input type="checkbox" name="accept_privacy" required /> He leído y
+            acepto la
+            <a href="#" target="_blank">política de privacidad</a>. </label
+          ><br />
+
+          <input type="submit" value="Contactarme, por favor" />
+        </form>
+
+        <div class="convenio-beneficios">
+          <h6>¡Aprovecha estas Exclusivas Ofertas!</h6>
+          <p>
+            Como parte de nuestra asociación, te ofrecemos una variedad de
+            beneficios para tu salud bucal:
+          </p>
+          <ul>
+            <li>
+              <strong>Descuentos Especiales:</strong> Disfruta de descuentos de
+              hasta el 20% en servicios dentales seleccionados, incluyendo
+              implantes, ortodoncia y más.
+            </li>
+            <li>
+              <strong>Consultas y Pruebas Gratuitas:</strong> Accede a
+              diagnósticos precisos y pruebas de forma gratuita, permitiéndote
+              conocer mejor tu salud bucal sin coste adicional.
+            </li>
+            <li>
+              <strong>Limpiezas Profesionales:</strong> Mantén tu sonrisa
+              radiante con limpiezas dentales regulares, que forman parte de
+              nuestros servicios sin cargo.
+            </li>
+            <li>
+              <strong>Tratamientos Personalizados:</strong> Recibe atención
+              dental personalizada y tratamientos especializados adaptados a tus
+              necesidades individuales.
+            </li>
+            <li>
+              <strong>Aparcamiento gratuito:</strong> Pregunta en recepción para
+              más detalles sobre cómo puedes aprovechar esta conveniente ventaja
+              durante tu visita.
+            </li>
+          </ul>
+          <p>
+            No dejes pasar esta oportunidad única para cuidar tu sonrisa y
+            mantener una salud bucal óptima a precios más accesibles.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <!-- Carga el contenido del pie de página -->
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      $(function () {
+        // Carga el contenido del pie de página
+        $("footer").load("./footer.html");
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      $(function () {
+        // Carga el contenido header
+        $("header").load("./header.html");
+      });
+    </script>
+
+    <script>
+      function toggleAudio() {
+        var audioPlayer = document.getElementById("audioPlayer");
+        if (audioPlayer.paused) {
+          audioPlayer.play();
+        } else {
+          audioPlayer.pause();
+        }
+      }
+
+      document
+        .getElementById("showForm")
+        .addEventListener("click", function () {
+          document.getElementById("contactForm").style.display = "block";
+          this.style.display = "none"; // Oculta el botón al mostrar el formulario
+        });
+    </script>
+  </body>
+</html>
